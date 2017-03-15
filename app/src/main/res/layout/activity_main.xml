@@ -75,21 +75,86 @@
             android:gravity="center_vertical"
             />
 
-        <Button
+        <RadioGroup
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:text="ok"
-            />
-        <Button
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="OK"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="wide ball"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="No Ball"
+                />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+
+        >
+
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:text="wide ball"
+            android:layout_height="match_parent"
+            android:text="Run"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
             />
-        <Button
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:text="No Ball"
-            />
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="0"
+                />
+            <RadioButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                />
+            <RadioButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="2"
+                />
+            <RadioButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="3"
+                />
+            <RadioButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="4"
+                />
+            <RadioButton
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="6"
+                />
+
+        </RadioGroup>
+
 
     </LinearLayout>
 
